@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>field goal!</title>
+<!-- <link rel="stylesheet" href="style.css" type="text/css" /> -->
+<style> 
+        *{
+            box-sizing: border-box;
+        }
+        .basic-div {
+            color: blue;
+        }
+        #alden-button {
+            background-color: ghostwhite;
+            width: 500px;
+            height: 200px;
+            margin: 50px;
+            color: blue;
+        }
+        body {
+            background-color: darkred;
+        }
+        #calvin-button {
+            display: none;
+        
+        }
+        #football-field  {
+            background-color: green;
+            width: 500px;
+            height: 200px;
+            margin: 70px;
+        }
+        /* #football-field {
+            background-color:yellowgreen;
+
+        } */
+        #field-goal {
+            /* backgdround-color: yellow;  */
+            width: 100px;
+            height: 150px;
+            border-width: 0px 5px 5px 5px;
+            border-color: yellow; 
+            border-style: solid;
+            margin-left: calc(50% - 50px); 
+            box-sizing:border-box; 
+        }
+        #field-goal-post {
+            background-color: yellow; 
+            width: 5px;
+            height: 40px;
+            margin-left: calc(50% - 2.5px);
+        }
+
+    </style>
+</head>
+<body>
+
+
+<h1>Click the buttons</h1>
+<button id="alden-button">Click Me!</button>
+<button id="calvin-button">Best click!</button>
+<div id="field-goal"></div>
+<div id="field-goal-post"></div>
+
+<div id="football-field">
+    <div>Football field goal</h2>
+</div>
+<h2>Football field goal</h2>
+<button id="start-game-button"> click to play field goal game!</button>
+
+
+
+<script> 
+    const aldenButton = document.getElementById("alden-button");
+    const calvinButton = document.getElementById("calvin-button");
+    const field = document.getElementByID("start-game-button")
+    const button = document.getElementById("football-field")
+    function aldenFunction(event) {
+        // alert("The button has been clicked!");
+        // myButton.style.display = "none";
+        aldenButton.style.backgroundColor = "green";
+        setTimeout(() => {
+            aldenButton.style.display="none";
+            calvinButton.style.display="block";
+        }, 100);
+        
+    }
+    
+    function calvinFunction(event) {
+        calvinButton.style.backgroundColor="red";
+        setTimeout(() => {
+            calvinButton.style.display="none";
+            aldenButton.style.display="block";
+        }, 100);
+    }
+    
+    aldenButton.addEventListener('click', aldenFunction); 
+    calvinButton.addEventListener('click', calvinFunction);
+    const goal = document.getElementById("field-goal")
+    function goalFunction(event){
+        
+    }
+</script>
+
+</body>
+</html>
+

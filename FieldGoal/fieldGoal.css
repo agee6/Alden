@@ -1,0 +1,47 @@
+script{
+    box-sizing: border-box;
+}
+.basic-div {
+    color: blue;
+}
+#alden-button {
+    background-color: ghostwhite;
+    width: 500px;
+    height: 200px;
+    margin: 50px;
+    color: blue;
+}
+body {
+    background-color: darkred;
+}
+#calvin-button {
+    display: none;
+    color: blue;
+
+}
+#football-field  {
+    background-color: green;
+    width: 500px;
+    height: 200px;
+    margin: 70px;
+}
+/* #football-field {
+    background-color:yellowgreen;
+
+} */
+#field-goal {
+    /* backgdround-color: yellow;  */
+    width: 100px;
+    height: 150px;
+    border-width: 0px 5px 5px 5px;
+    border-color: yellow; 
+    border-style: solid;
+    margin-left: calc(50% - 50px); 
+    box-sizing:border-box; 
+}
+#field-goal-post {
+    background-color: yellow; 
+    width: 5px;
+    height: 40px;
+    margin-left: calc(50% - 2.5px);
+}
