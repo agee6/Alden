@@ -1,33 +1,12 @@
-script{
-    box-sizing: border-box;
-}
-.basic-div {
-    color: blue;
-}
-#alden-button {
-    background-color: ghostwhite;
-    width: 500px;
-    height: 200px;
-    margin: 50px;
-    color: blue;
-}
-body {
-    background-color: darkred;
-}
-#calvin-button {
-    display: none;
 
-}
 #football-field  {
     background-color: green;
-    width: 500px;
-    height: 200px;
-    margin: 70px;
+    width: 90%;
+    height: 1000px;
+    margin: 5%;
+    margin-top: 0px;
 }
-/* #football-field {
-    background-color:yellowgreen;
 
-} */
 #field-goal {
     /* backgdround-color: yellow;  */
     width: 100px;
