@@ -16,5 +16,9 @@ app.get('/fieldgoal', function(req, res) {
     res.sendFile(path.join(__dirname + '/FieldGoal/fieldGoal.html'));
 })
 
+app.get('/football!', function(req, res) {
+    res.sendFile(path.join(__dirname + '/football!/football.html'));
+})
+
 var server = app.listen(8080);
 console.log('Express server started on port %s', server.address().port);
