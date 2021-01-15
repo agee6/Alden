@@ -7,32 +7,89 @@
 
 </head>
 <body>
+    <div id="score-board">
+        <div><span id="player0name" class="playerName">Home:</span> <span id="home-score">0</span></div>
+        <div><span id="player1name" class="playerName">Away:</span> <span id="away-score">0</span></div>
+    </div>
+    <div id="text-area">
+        <div> <span id="going-on"></span></div>
+    </div>
     <div id="field-goal"></div>
     <div id="field-goal-post"></div>
     <div id="field-goal-post"></div>
+    <div id="audience-0" class="fans-talking"></div>
+    <div id="audience-1" class="fans-talking"></div>
+    <button id="play-again" class="none">Play again</button>
+    <div id="main-banner"></div>
+    <div id="the-end"></div>
+    
     <div id="football-field">
         <div id="end-zone">TIGERS</div>
         <div id="ten-yard" class="yard-line"></div>
         <div id="twenty-yard" class="yard-line"></div>
         <div id="thirty-yard" class="yard-line"></div>
         <button id="start-game">Start Game!</button>
+        <div id="set-up-game-section" class="none">
+            <div id="choose-type-game">
+                <label for="colors">Choose a game mode</label>
+    
+                <select name="game-mode" id="game-mode">
+                <option value="one">One Player</option>
+                <option value="two">Two Player</option>
+                </select>
+
+            </input>
+            </div>
+            <div id="set-up-player">
+                <div id="player-1-data">
+                
+                    <input id="player-1-name-input" name="player-1-name" type="text"> 
+ 
+                    <label for="colors">Choose a color:</label>
+    
+                    <select name="colors" id="player-1-color">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                    <option value="orange">Orange</option>
+                    </select>
+                </div>
+                <div id="player-2-data" class="none">
+                    <input id="player-2-name-input" name="player-2-name" type="text"> 
+                
+                    <label for="colors">Choose a color:</label>
+    
+                    <select name="colors" id="player-2-color">
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                    <option value="orange">Orange</option>
+                    </select>
+                </div>
+                <div>
+                    <button id="submit">Submit</button>
+
+                </div>
+                
+        
+            </div>
         <div id="fourty-yard" class="yard-line"></div>
         <div id="fifty-yard" class="yard-line"></div> 
         <div id="kicker"></div>
         <div id="football"></div>
-        <div id="audience"></div>
+    
+    </div> 
         
-        
-        
-    <div id="turn-get-field-goal">
-        <div id="a">
-            <div id="b">
-                <div id="c">
-                    <div id="d"></div>
-                </div>
-            </div>
+    <div id="kick-angle-square" class='none'>
+        <div id="moving-block-kick-angle">
         </div>
+        
     </div>
 
+    <div id="kick-angle-target" class='none'></div>
+
+    
+
 </body>
+<script src="fieldGoal.js"></script>
 </html>

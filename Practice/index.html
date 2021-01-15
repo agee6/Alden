@@ -49,7 +49,8 @@
 </head>
 <body>
 
-
+<div id="hyrum button"></div>
+<h1>don't click this button</h1>
 <h1>Click the buttons</h1>
 <button id="alden-button">Click Me!</button>
 <button id="calvin-button">Best click!</button>
@@ -64,13 +65,14 @@
 <div>This is the game!</div>
 <div>Practice Change </div>
 <div>Other practice Change</div>
-
+<div>This game is fun</div>
+<script src="./index.js"></script>
 
 
 <script> 
     const aldenButton = document.getElementById("alden-button");
     const calvinButton = document.getElementById("calvin-button");
-    const field = document.getElementByID("start-game-button")
+    const field = document.getElementById("start-game-button")
     const button = document.getElementById("football-field")
     function aldenFunction(event) {
         // alert("The button has been clicked!");
@@ -82,6 +84,7 @@
         }, 100);
         
     }
+    aldenButton.addEventListener('click', aldenFunction)
     
     function calvinFunction(event) {
         calvinButton.style.backgroundColor="red";

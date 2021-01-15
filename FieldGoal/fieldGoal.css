@@ -128,11 +128,6 @@
     border-radius: 20px;
     background-color: orange;
     position: absolute;
-    
-
-    
-    
-
 }
 
 #football {
@@ -144,3 +139,110 @@
     top: 340px;
     left: 350px;
 }
+
+#score-board {
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    top: 10px;
+    padding: 10px;
+    font-size: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+#text-area {
+    position: absolute;
+    right: 20px;
+    height: 100px;
+    width: 150px;
+    top: 10px;
+    font-size: 25px;
+    color: blue;    
+}
+
+.fans-talking {
+    height: 50px;
+    width: 90px;
+    border-radius: 25px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    position: absolute;
+    top: 260px;
+    z-index: 100;
+    padding: 10px;
+    
+}
+#audience-0 {
+    left: 50px;
+}
+#audience-1 {
+    right: 50px;
+}
+
+.none {
+    display:none;
+}
+
+#main-banner {
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    z-index: 101;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin: auto auto;
+    display: none;
+}
+#the-end {
+    position: absolute;
+    z-index: 110;
+    font-size: 20px;
+    top: 200px;
+    right: 175px;
+}
+
+#playagain {
+    position: absolute;
+    z-index: 111;
+    border-color: brown;
+    color: crimson;
+    top: 300px;
+    right: 175px;
+}
+
+#kick-angle-square {
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    height: 50px;
+    width: 200px;
+    position: fixed;
+    z-index: 100;
+    top: 500;
+    left: 100px;
+    box-sizing:border-box;
+}
+#kick-angle-target {
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    height: 50px;
+    width: 40px;
+    position: fixed;
+    z-index: 100;
+    top: 500;
+    left: 180px;
+    box-sizing: border-box;
+}
+
+#moving-block-kick-angle {
+    height: 46px;
+    width: 10px;
+    background-color: red;
+    box-sizing:border-box;
+}
+
